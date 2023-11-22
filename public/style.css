@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://cdn.wallpapersafari.com/49/1/K6DGJp.jpg);
+  background-repeat: repeat;
+}
+
+#getEvent {
+  position: relative;
+  left: 350px;
+  top: 200px;
+}
+#create {
+  position: relative;
+  left: 550px;
+  top: 200px;
+}
+button {
+  border-radius: 5px;
+  width: 200px;
+  height: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  font-size: 30px;
+}
+
+label {
+  display: block;
+  margin: 1%;
+}
+
+/* input {
+  border: none;
+} */
+
+#eventsCards {
+  display: flex;
+  flex-direction: column;
+  margin: 2% auto;
+  width: 70vw;
+  margin-top: 280px;
+}
+.eventCard {
+  margin: 30px;
+  background-color: rgb(29, 108, 186);
+  padding: 2%;
+  border-color: white;
+  border-style: dashed;
+}
+
+.eventCard p {
+  font-size: 1.1em;
+}
+h2,
+label {
+  color: white;
+}
+
+input {
+  color: blue;
+}
+
+#createEventContainer {
+  width: 40vw;
+  text-align: center;
+  height: 50vh;
+  background-color: rgb(46, 58, 189);
+  margin: 10% auto;
+}
+
+#submit {
+  display: block;
+  margin: 10px auto;
+}
