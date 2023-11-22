@@ -36,10 +36,6 @@ label {
   margin: 1%;
 }
 
-/* input {
-  border: none;
-} */
-
 #eventsCards {
   display: flex;
   flex-direction: column;
